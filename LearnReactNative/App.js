@@ -16,6 +16,8 @@ import {
   View,
 } from 'react-native';
 
+import {WebView} from 'react-native-webview';
+
 // import {
 //   Colors,
 //   DebugInstructions,
@@ -92,13 +94,21 @@ const App = () => {
     //     </View>
     //   </ScrollView>
     // </SafeAreaView>
-    <>
-      <SafeAreaView>
-        <View>
-          <Text>Hello React-native</Text>
-        </View>
-      </SafeAreaView>
-    </>
+
+    // <SafeAreaView>
+    //   <View>
+    //     <Text>Hello React-native</Text>
+    //   </View>
+    // </SafeAreaView>
+
+    <View style={{height: 400, backgroundColor: 'red'}}>
+      <WebView
+        source={{uri: 'https://infinite.red'}}
+        // source={{uri: 'https://www.naver.com'}}
+        // source={{uri: 'https://www.naver.com'}}
+        style={{width: '100%', height: '100%'}}
+      />
+    </View>
   );
 };
 
