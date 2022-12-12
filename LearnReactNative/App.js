@@ -105,7 +105,6 @@ const App = () => {
       <WebView
         source={{uri: 'https://infinite.red'}}
         // source={{uri: 'https://www.naver.com'}}
-        // source={{uri: 'https://www.naver.com'}}
         style={{width: '100%', height: '100%'}}
       />
     </View>
