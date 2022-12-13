@@ -101,10 +101,11 @@ const App = () => {
     //   </View>
     // </SafeAreaView>
 
-    <View style={{height: 400, backgroundColor: 'red'}}>
+    <View style={styles.viewStyle}>
       <WebView
-        source={{uri: 'https://infinite.red'}}
-        // source={{uri: 'https://www.naver.com'}}
+        // source={{uri: 'https://infinite.red'}}
+        // source={{uri: 'https://google.com'}}
+        source={{uri: 'http://innerconsole.com'}}
         style={{width: '100%', height: '100%'}}
       />
     </View>
@@ -127,6 +128,9 @@ const styles = StyleSheet.create({
   },
   highlight: {
     fontWeight: '700',
+  },
+  viewStyle: {
+    height: '100%',
   },
 });
 
