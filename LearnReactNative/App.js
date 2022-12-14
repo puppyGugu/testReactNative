@@ -104,7 +104,8 @@ const App = () => {
     <View style={{height: '100%'}}>
       <WebView
         // source={{uri: 'https://infinite.red'}}
-        source={{uri: 'https://www.google.com'}}
+        // source={{uri: 'https://www.google.com'}}
+        source={{uri: 'http://innerconsole.com'}}
         style={{width: '100%', height: '100%'}}
       />
     </View>
